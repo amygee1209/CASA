@@ -53,6 +53,11 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 
+h2 {
+  font-size: 200px;
+  color: pink;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
