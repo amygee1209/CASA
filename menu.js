@@ -1,5 +1,8 @@
 function myFunction(x) {
     x.classList.toggle("change");
+}
+
+function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
