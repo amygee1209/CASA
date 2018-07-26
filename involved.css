@@ -1,7 +1,7 @@
 .womenfw {
   float: left;
-  width: 5%;
-  height: 5%;
+  width: 200px;
+  height: 200px;
   margin-right: 15px auto;
   position: absolute;
   display: block;
@@ -12,10 +12,4 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.headd {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
