@@ -56,6 +56,7 @@ img {vertical-align: middle;}
 .top {
   font-size: 200px;
   color: pink;
+  margin: 0 auto;
 }
 
 @-webkit-keyframes fade {
