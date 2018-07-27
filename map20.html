@@ -4,6 +4,8 @@
     <title>Women In Spotlight</title>
     <link rel="stylesheet" href="map.css">
     <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="top.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
 
@@ -31,9 +33,32 @@
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet' type='text/css'>
 
-    <a href="map.html"><img src="1800s.jpg" width="30%" height="auto"></a>
-    <a href="map19.html"><img src="1900s.jpg" width="30%" height="auto"></a>
-    <a href="map20.html"><img src="2000s2.jpg" width="30%" height="auto"></a>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <h1>Choose an era</h1>
+
+    <div class="container">
+      <img src="1800s.jpg" width="100%" height="100%">
+      <div class="overlay">
+        <div class="text"><a href="map.html">1800s</a></div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <img  src="1900s.jpg" width="100%" height="100%">
+      <div class="overlay">
+        <div class="text"><a href="map19.html">1900s</a></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="2000s2.jpg" width="100%" height="100%">
+      <div class="overlay">
+        <div class="text"><a href="map20.html">2000s</a></div>
+      </div>
+    </div>
+
     <h1>Click the dots to see shat happens</h1>
     <div class="distribution-map">
         <img src="https://i.imgur.com/M7aUkuS.png">
@@ -88,5 +113,6 @@
     </div>
 
     <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="top.js"></script>
   </body>
 </html>
