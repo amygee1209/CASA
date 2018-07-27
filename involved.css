@@ -12,6 +12,13 @@
   margin-left: 300px;
 }
 
+.gwc {
+  float: left;
+  max-width: 400px;
+  width: 50%;
+  margin-left: 300px;
+}
+
 .videog {
   display: block;
   margin-left: auto;
