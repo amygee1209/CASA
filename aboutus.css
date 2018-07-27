@@ -1,8 +1,6 @@
 .top {
   font-size: 80px;
   color: pink;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .hoho {
@@ -55,7 +53,7 @@ html, body {
 .card {
 	display: inline-block;
 	width: 90%;
-	max-width: 15rem;
+	max-width: 20rem;
 	margin: 1rem;
 	font-size: 1rem;
 	text-decoration: none;
