@@ -1,7 +1,7 @@
 .womenfw {
   float: left;
   max-width: 400px;
-  width: 50%;
+  width: 55%;
   margin-left: 300px;
 }
 
@@ -15,7 +15,7 @@
 .gwc {
   float: left;
   max-width: 400px;
-  width: 50%;
+  width: 55%;
   margin-left: 300px;
 }
 
@@ -35,7 +35,12 @@
     margin-right: 15px;
 }
 
-
+.column2{
+  float: right;
+  width: 30%;
+  padding-right: 250px;
+  /* margin-left: 15px; */
+}
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -48,4 +53,9 @@
     .column {
         width: 100%;
     }
+}
+
+.center {
+  color: pink;
+  font-size: 100px;
 }
