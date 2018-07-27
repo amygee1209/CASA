@@ -56,11 +56,6 @@ img {vertical-align: middle;}
 .top {
   font-size: 100px;
   color: pink;
-  width: 100%;
-}
-
-.center {
-  margin:0 auto;
 }
 
 @-webkit-keyframes fade {
