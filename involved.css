@@ -1,0 +1,19 @@
+.womenfw {
+  float: left;
+  max-width: 400px;
+  width: 50%;
+  margin-left: 300px;
+}
+
+.videog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.clearfix {
+  overflow: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
