@@ -73,6 +73,19 @@
   margin: 0;
 }
 
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #000040;
+  color: white;
+  text-align: center;
+  margin: 0;
+  border:0;
+  padding: 0;
+}
 
 body {
   margin: 0;
