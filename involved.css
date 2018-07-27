@@ -1,7 +1,7 @@
 .womenfw {
   float: left;
   max-width: 400px;
-  width: 75%;
+  width: 50%;
   margin-left: 300px;
 }
 
@@ -15,5 +15,5 @@
 .clearfix {
   overflow: auto;
   margin-left: 100px;
-  margin-right: 400px;
+  margin-right: 100px;
 }
