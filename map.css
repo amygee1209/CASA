@@ -18,8 +18,8 @@
   bottom: 0;
   left: 40px;
   right: 0;
-  height: 65%;
-  width: 75%;
+  height: 68.5%;
+  width: 77.8%;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
@@ -52,7 +52,7 @@ html {
 body {
   max-width: 1200px;
   margin: 20px auto;
-  padding: 0 100px;
+  padding: 0 100px
   overflow-x: hidden;
 }
 
@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24pt;
+  font-size: 20pt;
 }
 
 h3 {
