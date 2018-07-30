@@ -1,3 +1,8 @@
+.container {
+   margin:0 auto; /* this will center the page */
+   width:1100px; /*  use your width here */
+}
+
 .top {
   font-size: 80px;
   color: pink;
