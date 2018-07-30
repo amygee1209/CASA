@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36pt;
+  color: #000000;
 }
 
 h2 {
@@ -102,7 +103,6 @@ p {
   font-size: 10pt;
   margin-bottom: 12pt;
 }
-
 strong {
   font-weight: 900;
   font-family: "Roboto Condensed", Helvetica, sans-serif;
@@ -117,7 +117,7 @@ a {
   color: #dff3fd;
 }
 a:visited {
-  color: #dff3fd;
+  color: #ff8566;
 }
 li.active a, a:hover, a:active {
   color: #e5e5e5;
@@ -188,8 +188,8 @@ li.active a, a:hover, a:active {
   padding: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  width: 300px;
-  height: 220px;
+  width: 400px;
+  height: 270px;
   color: #e5e5e5;
   z-index: 1;
   transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
