@@ -3,9 +3,23 @@
   color: pink;
 }
 
-.hoho {
+.gwcimg {
   width: 20%;
   height: auto;
+  margin-left: 100px;
+  padding-right: 40px;
+}
+
+.att {
+  width: 20%;
+  height: auto;
+  margin-left: 100px;
+}
+
+#cpen {
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
 }
 
 /* Lazy Load Styles */
@@ -79,4 +93,8 @@ html, body {
 
 .card-description > p {
 	margin: 0;
+}
+
+.pink {
+  background-color: pink;
 }
