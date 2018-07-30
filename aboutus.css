@@ -4,18 +4,13 @@
 }
 
 .gwcimg {
-  width: 200%;
-  /*height: 100px;*/
+  width: 70%;
   height: auto;
-  /*margin-left: 100px;
-  padding-right: 40px;*/
 }
 
 .att {
-  width: 200%;
+  width: 70%;
   height: auto;
-/*  height: auto;
-  margin-left: 100px;*/
 }
 
 #cpen {
@@ -104,7 +99,6 @@ html, body {
 }
 
 .flex-container > div {
-  width: 100px;
   margin: 10px;
   line-height: 75px;
 }
