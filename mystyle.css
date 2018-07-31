@@ -1,0 +1,30 @@
+body{
+    background-color:#FFB6C1;
+}
+
+h1{
+    color:#000000;
+    text-aline: center;
+    text-decoration: underline;
+}
+
+p{
+  color:#FFFFFF;
+  font-family:verdana;
+  fontsize: 20px;
+}
+h2{
+  color:#000000;
+  text-aline:center;
+  text-decoration: underline;
+}
+h3{
+  color:#000000;
+  text-aline:center;
+  text-decoration: underline
+}
+h4{
+  color:#000000;
+  text aline:center;
+  text-decoration: underline;
+}
