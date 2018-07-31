@@ -60,3 +60,29 @@
   font-size: 100px;
   font-family: Verdana, sans-serif;
 }
+
+
+<<<<<<< HEAD
+
+body {
+  margin: 0;
+  padding:0;
+=======
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #000040;
+  color: white;
+  text-align: center;
+  margin: 0;
+  border:0;
+  padding: 0;
+>>>>>>> dda1907190d14696389c481193629960afcbe0a5
+}
+
+.fontchoice {
+  font-family: 'Fira Sans';
+}

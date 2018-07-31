@@ -29,8 +29,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
+  max-width: 100%;
+  position: 600px;
   margin: auto;
 }
 
@@ -95,4 +95,23 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+.maincontent {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 70%;
+}
+
+.welcome {
+  font-size: 50px;
+}
+
+.space{
+  height: 30px;
+}
+
+.container {
+   margin:0 auto; /* this will center the page */
+   width:1050px; /*  use your width here */
 }

@@ -18,8 +18,8 @@
   bottom: 0;
   left: 40px;
   right: 0;
-  height: 65%;
-  width: 75%;
+  height: 68.5%;
+  width: 77.8%;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
@@ -52,7 +52,7 @@ html {
 body {
   max-width: 1200px;
   margin: 20px auto;
-  padding: 0 100px;
+  padding: 0 100px
   overflow-x: hidden;
 }
 
@@ -76,10 +76,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36pt;
+  color: #000000;
 }
 
 h2 {
-  font-size: 24pt;
+  font-size: 20pt;
 }
 
 h3 {
@@ -99,8 +100,18 @@ h6 {
 }
 
 p {
-  font-size: 12pt;
+  font-size: 10pt;
   margin-bottom: 12pt;
+}
+
+.person {
+  float: left;
+  width: 15%;
+  height: auto;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 20px;
 }
 
 strong {
@@ -188,8 +199,8 @@ li.active a, a:hover, a:active {
   padding: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  width: 300px;
-  height: 220px;
+  width: 400px;
+  height: 270px;
   color: #e5e5e5;
   z-index: 1;
   transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;

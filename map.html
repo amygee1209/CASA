@@ -4,6 +4,8 @@
     <title>Women In Spotlight</title>
     <link rel="stylesheet" href="map.css">
     <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="involved.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -32,7 +34,9 @@
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet' type='text/css'>
 
-  <h1>Choose an era</h1>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <h1>Choose an era</h1>
 
     <div class="container">
       <img src="1800s.jpg" width="100%" height="100%">
@@ -58,15 +62,20 @@
 
 
 
-    <h1>Click the dots to see shat happens</h1>
+    <h1>Click the dots to see what happens</h1>
     <div class="distribution-map">
         <img src="https://i.imgur.com/M7aUkuS.png">
-        <button class="map-point" style="top:15%;left:35%">
+        <button class="map-point" style="top:40%;left:27%">
             <div class="content">
                 <div class="centered-y">
-                    <h2>mississippi</h2>
-                    <p>Ida became the most famous black women in America. She was a very educated African American she was a African American investigative journalist, educator, she was also an early leader in the Civil Rights Movement. She was also a founder of the National Association for the Advancement of Colored People. As a child she was born into slavery.</p>
-
+                    <img class="person" src="ecs.jpg">
+                    <h2>Elizabeth Cady Stanton</h2>
+                    <p>An American suffragist, social activist, abolitionist, and leading figure of
+                       the early women's rights movement, who fought for women’s suffrage when the 14th and 15th
+                    amendments excluded gender equality. Stanton was president of the National Woman Suffrage
+                     Association from 1892 until 1900.</p>
+                     <h6><a href="https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton">
+                     Learn More</a></h6>
 
                 </div>
             </div>
@@ -74,8 +83,14 @@
         <button class="map-point" style="top:35%;left:50%">
             <div class="content">
                 <div class="centered-y">
-                    <h2>United kingdom</h2>
-                    <p>Edith was a British nurse she saved lives of soldiers from WW1 without discrimination she also helped 200 soldiers escape from German occupied Belgium. She eventually the government found out and they arrested her for treason they sentenced her to death.</p>
+                    <img class="person" src="fl.jpg">
+                    <h2>Fanny Lewald</h2>
+                    <p>Fanny Lewald’s literary salon in Berlin, was a favorite among German intellectuals
+                      and feminists in mid-1800s. In her novels, she dealt with issues relating to women’s
+                      self-determination and she’s been one of the few women who, at the time, managed to
+                       support herself being an intellectual.</p>
+                    <h6><a href="https://en.wikipedia.org/wiki/Fanny_Lewald">
+                       Learn More</a></h6>
 
                 </div>
             </div>
@@ -83,37 +98,63 @@
         <button class="map-point" style="top:76%;left:82.5%">
             <div class="content">
                 <div class="centered-y">
-                    <h2>japan</h2>
-                    <p>I solemnly swear that I am up to no good</p>
+                    <img class="person" src="ec.jpg">
+                    <h2>Edith Cowan</h2>
+                    <p>Cowan was the first woman to be elected to parliament in Australia.
+                        She campaigned for women’s rights throughout her career and co-founded
+                        the Karrakatta Club, which lobbied for the right for women to vote.</p>
+                    <h6><a href="https://en.wikipedia.org/wiki/Edith_Cowan">
+                        Learn More</a></h6>
                 </div>
             </div>
         </button>
-        <button class="map-point" style="top:45%;left:16%">
+        <button class="map-point" style="top:30%;left:16%">
             <div class="content">
                 <div class="centered-y">
-                    <h2>hey now</h2>
-                    <p>I&rsquo;m a marshmallow</p>
+                  <img class="person" src="ah.jpg">
+                    <h2>Adelaide Hoodless</h2>
+                    <p>Educational reformer and founder of the Women’s Institute.
+                       Adelaide Hoodless worked on having more women educated in matters of domestic
+                        science.She was also a powerful force behind the formation of three
+                        faculties of household science.</p>
+                    <h6><a href="https://en.wikipedia.org/wiki/Adelaide_Hoodless">
+                        Learn More</a></h6>
                 </div>
             </div>
         </button>
-        <button class="map-point" style="top:60%;left:53%">
+        <button class="map-point" style="top:60%;left:58%">
             <div class="content">
                 <div class="centered-y">
-                    <h2>country</h2>
-                    <p>I bless the rains</p>
+                  <img class="person" src="tb.gif">
+                    <h2>Taytu Betul</h2>
+                    <p>A formidable queen and empress of Ethiopia.
+                      An astute diplomat, she proved to be a key figure in thwarting Italian
+                      imperialist designs on Ethiopia. Later, she and her husband Emperor Menelik II,
+                       led a huge army to battle at Adwa, where they won one of the most important
+                       victories of any African army against European colonialist aggression.</p>
+                    <h6><a href="https://en.wikipedia.org/wiki/Taytu_Betul">
+                        Learn More</a></h6>
                 </div>
             </div>
         </button>
-        <button class="map-point" style="top:25%;left:70%">
+        <button class="map-point" style="top:43%;left:77%">
             <div class="content">
                 <div class="centered-y">
-                    <h2>With Love</h2>
-                    <p>&mdash; 007</p>
+                  <img class="person" src="c.JPG">
+                  <h2>Cíxǐ</h2>
+                  <p>Cíxǐ used her acquired knowledge of foreign affairs, diplomacy, economics,
+                    and national politics to help develop 19th century China into a modern and
+                    internationally competitive nation.</p>
+                  <h6><a href="https://en.wikipedia.org/wiki/Empress_Dowager_Cixi">
+                      Learn More</a></h6>
                 </div>
             </div>
         </button>
     </div>
 
+
+
     <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="top.js"></script>
   </body>
 </html>
