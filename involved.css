@@ -91,7 +91,6 @@ footer {
   font-family: 'Fira Sans';
 }
 
-<<<<<<< HEAD
 body, html {
     height: 100%;
     margin: 0;
@@ -115,26 +114,10 @@ body, html {
   color: white;
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
-
 .transparent {
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.75);;
-=======
+
 
 .footer #button{
 	width:35px;
